@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Welcome to my website!
 
-You can use the [editor on GitHub](https://github.com/skeletalz/SkeletalScripts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I love coding and sometimes can't stop!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here is some of my favorite scripts!
 
-### Markdown
+You can use the [editor on GitHub](https://github.com/skeletalz/SkeletalScripts/edit/master/README.md)
+### Jailbreak Car TP!
+One of my favorite scripts I've made is a jailbreak tp system!
+Just replace car with "Camaro" or the name of the car you want
+And replace (place) with the CFrame / vector3 you want to be at!
+```LUA
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+local VehicleName = car
+   if  workspace.Vehicles[VehicleName].Seat.Player ~= true then
+   workspace.Vehicles[VehicleName].PrimaryPart = workspace.Vehicles[VehicleName].Seat
+   workspace.Vehicles[VehicleName]:SetPrimaryPartCFrame(workspace[game:GetService("Players").LocalPlayer.Name].HumanoidRootPart.CFrame + Vector3.new(0,5,0))
+   
+   wait(2)
+   -- if you want a car to Teleport then keep the script below
+   workspace.Vehicles[VehicleName].PrimaryPart = workspace.Vehicles[VehicleName].Seat
+   workspace.Vehicles[VehicleName]:SetPrimaryPartCFrame(place)
+```
+### Baconator V2 | Piggy Script!!!
+Another one of my favorite scripts is Baconator! It is a great Piggy script that is constantly being updated!
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```LUA
+loadstring(game:HttpGet("https://luawhitelistcheck.000webhostapp.com/BaconatorV2.lua"))()
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skeletalz/SkeletalScripts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My [Youtube Channel](https://www.youtube.com/channel/UCRfSrYi47Y7kRdoq2G1UHFA?view_as=subscriber) is a place where you can find some of my latest scripts and can become a beta tester!
