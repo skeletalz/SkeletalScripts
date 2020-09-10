@@ -4,7 +4,7 @@ I love coding and sometimes can't stop!
 
 Here is some of my favorite scripts!
 
-You can use the [editor on GitHub](https://github.com/skeletalz/SkeletalScripts/edit/master/README.md)
+
 ### Jailbreak Car TP!
 One of my favorite scripts I've made is a jailbreak tp system!
 Just replace car with "Camaro" or the name of the car you want
